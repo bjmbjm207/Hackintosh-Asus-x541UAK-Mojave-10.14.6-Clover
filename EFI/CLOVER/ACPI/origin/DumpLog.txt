@@ -1,0 +1,104 @@
+5:352  0:043  Found UEFI Acpi 2.0 RSDP at 9AA89000
+5:352  0:000  Saving ACPI tables from RSDP 9AA89000 to EFI\CLOVER\ACPI\origin ...
+5:352  0:000   9AA89000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:352  0:000    (Xsdt: 9AA890A0, Rsdt: 9AA89028)
+5:352  0:000    9AA890A0: 'XSDT', 'Notebook', Rev: 1, Len: 188
+5:352  0:000    9AA89028: 'RSDT', 'Notebook', Rev: 1, Len: 112
+5:352  0:000    Tables in Xsdt: 19
+5:352  0:000    0. 9AAB3C08: 'FACP', 'Notebook', Rev: 6, Len: 276
+5:352  0:000        (Dsdt: 9AA891E8, Facs: 9AEA1C40, XDsdt: 9AA891E8, XFacs: 0)
+5:352  0:000        9AA891E8: 'DSDT', 'Notebook', Rev: 2, Len: 174623
+5:355  0:003        9AEA1C40: 'FACS', Ver: 2, Len: 64
+5:355  0:000    1. 9AAB3D20: 'APIC', 'Notebook', Rev: 3, Len: 132
+5:355  0:000    2. 9AAB3DA8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+5:355  0:000    3. 9AAB3DF0: 'ECDT', 'Notebook', Rev: 1, Len: 193
+5:355  0:000    4. 9AAB3EB8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+5:355  0:000    5. 9AAB3EF8: 'SSDT', 'SataTabl', Rev: 1, Len: 802
+5:355  0:000    6. 9AAB4220: 'FIDT', 'Notebook', Rev: 1, Len: 156
+5:355  0:000    7. 9AAB42C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 23480
+5:355  0:000    8. 9AAB9E78: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+5:355  0:000    9. 9AABCFD8: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+5:355  0:000    10. 9AABD010: 'UEFI', 'EDK2', Rev: 1, Len: 66
+5:355  0:000    11. 9AABD058: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+5:355  0:000    12. 9AABDF38: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+5:355  0:000    13. 9AABDFD0: 'WSMT', 'KBL-ULT', Rev: 1, Len: 40
+5:355  0:000    14. 9AABDFF8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+5:355  0:000    15. 9AABE298: 'DBGP', '', Rev: 1, Len: 52
+5:355  0:000    16. 9AABE2D0: 'DBG2', '', Rev: 0, Len: 84
+5:355  0:000    17. 9AABE328: 'BGRT', 'Notebook', Rev: 1, Len: 56
+5:355  0:000    18. 9AABE360: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+5:355  0:000    Tables in Rsdt: 19
+5:355  0:000    0. 9AA89160: 'FACP', 'Notebook', Rev: 2, Len: 132
+5:355  0:000        (Dsdt: 9AA891E8, Facs: 9AEA1C00)
+5:355  0:000        9AA891E8: 'DSDT', 'Notebook', Rev: 2, Len: 174623
+5:358  0:003        9AEA1C00: 'FACS', Ver: 0, Len: 64
+5:358  0:000    1. 9AAB3D20: 'APIC', 'Notebook', Rev: 3, Len: 132
+5:358  0:000    2. 9AAB3DA8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+5:358  0:000    3. 9AAB3DF0: 'ECDT', 'Notebook', Rev: 1, Len: 193
+5:358  0:000    4. 9AAB3EB8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+5:358  0:000    5. 9AAB3EF8: 'SSDT', 'SataTabl', Rev: 1, Len: 802
+5:358  0:000    6. 9AAB4220: 'FIDT', 'Notebook', Rev: 1, Len: 156
+5:358  0:000    7. 9AAB42C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 23480
+5:358  0:000    8. 9AAB9E78: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+5:358  0:000    9. 9AABCFD8: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+5:358  0:000    10. 9AABD010: 'UEFI', 'EDK2', Rev: 1, Len: 66
+5:358  0:000    11. 9AABD058: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+5:358  0:000    12. 9AABDF38: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+5:358  0:000    13. 9AABDFD0: 'WSMT', 'KBL-ULT', Rev: 1, Len: 40
+5:358  0:000    14. 9AABDFF8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+5:358  0:000    15. 9AABE298: 'DBGP', '', Rev: 1, Len: 52
+5:358  0:000    16. 9AABE2D0: 'DBG2', '', Rev: 0, Len: 84
+5:358  0:000    17. 9AABE328: 'BGRT', 'Notebook', Rev: 1, Len: 56
+5:358  0:000    18. 9AABE360: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+5:358  0:000  Found UEFI Acpi 1.0 RSDP at 9AA89000
+5:358  0:000  Printing ACPI tables from RSDP 9AA89000 ...
+5:358  0:000   9AA89000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:358  0:000    (Xsdt: 9AA890A0, Rsdt: 9AA89028)
+5:358  0:000    9AA890A0: 'XSDT', 'Notebook', Rev: 1, Len: 188
+5:358  0:000    9AA89028: 'RSDT', 'Notebook', Rev: 1, Len: 112
+5:358  0:000    Tables in Xsdt: 19
+5:358  0:000    0. 9AAB3C08: 'FACP', 'Notebook', Rev: 6, Len: 276
+5:358  0:000        (Dsdt: 9AA891E8, Facs: 9AEA1C40, XDsdt: 9AA891E8, XFacs: 0)
+5:358  0:000        9AA891E8: 'DSDT', 'Notebook', Rev: 2, Len: 174623
+5:362  0:003        9AEA1C40: 'FACS', Ver: 2, Len: 64
+5:362  0:000    1. 9AAB3D20: 'APIC', 'Notebook', Rev: 3, Len: 132
+5:362  0:000    2. 9AAB3DA8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+5:362  0:000    3. 9AAB3DF0: 'ECDT', 'Notebook', Rev: 1, Len: 193
+5:362  0:000    4. 9AAB3EB8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+5:362  0:000    5. 9AAB3EF8: 'SSDT', 'SataTabl', Rev: 1, Len: 802
+5:362  0:000    6. 9AAB4220: 'FIDT', 'Notebook', Rev: 1, Len: 156
+5:362  0:000    7. 9AAB42C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 23480
+5:362  0:000    8. 9AAB9E78: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+5:362  0:000    9. 9AABCFD8: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+5:362  0:000    10. 9AABD010: 'UEFI', 'EDK2', Rev: 1, Len: 66
+5:362  0:000    11. 9AABD058: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+5:362  0:000    12. 9AABDF38: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+5:362  0:000    13. 9AABDFD0: 'WSMT', 'KBL-ULT', Rev: 1, Len: 40
+5:362  0:000    14. 9AABDFF8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+5:362  0:000    15. 9AABE298: 'DBGP', '', Rev: 1, Len: 52
+5:362  0:000    16. 9AABE2D0: 'DBG2', '', Rev: 0, Len: 84
+5:362  0:000    17. 9AABE328: 'BGRT', 'Notebook', Rev: 1, Len: 56
+5:362  0:000    18. 9AABE360: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
+5:362  0:000    Tables in Rsdt: 19
+5:362  0:000    0. 9AA89160: 'FACP', 'Notebook', Rev: 2, Len: 132
+5:362  0:000        (Dsdt: 9AA891E8, Facs: 9AEA1C00)
+5:362  0:000        9AA891E8: 'DSDT', 'Notebook', Rev: 2, Len: 174623
+5:365  0:003        9AEA1C00: 'FACS', Ver: 0, Len: 64
+5:365  0:000    1. 9AAB3D20: 'APIC', 'Notebook', Rev: 3, Len: 132
+5:365  0:000    2. 9AAB3DA8: 'FPDT', 'Notebook', Rev: 1, Len: 68
+5:365  0:000    3. 9AAB3DF0: 'ECDT', 'Notebook', Rev: 1, Len: 193
+5:365  0:000    4. 9AAB3EB8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+5:365  0:000    5. 9AAB3EF8: 'SSDT', 'SataTabl', Rev: 1, Len: 802
+5:365  0:000    6. 9AAB4220: 'FIDT', 'Notebook', Rev: 1, Len: 156
+5:365  0:000    7. 9AAB42C0: 'SSDT', 'DptfTabl', Rev: 2, Len: 23480
+5:365  0:000    8. 9AAB9E78: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+5:365  0:000    9. 9AABCFD8: 'HPET', 'KBL-ULT', Rev: 1, Len: 56
+5:365  0:000    10. 9AABD010: 'UEFI', 'EDK2', Rev: 1, Len: 66
+5:365  0:000    11. 9AABD058: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+5:365  0:000    12. 9AABDF38: 'LPIT', 'KBL-ULT', Rev: 1, Len: 148
+5:365  0:000    13. 9AABDFD0: 'WSMT', 'KBL-ULT', Rev: 1, Len: 40
+5:365  0:000    14. 9AABDFF8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+5:365  0:000    15. 9AABE298: 'DBGP', '', Rev: 1, Len: 52
+5:365  0:000    16. 9AABE2D0: 'DBG2', '', Rev: 0, Len: 84
+5:365  0:000    17. 9AABE328: 'BGRT', 'Notebook', Rev: 1, Len: 56
+5:365  0:000    18. 9AABE360: 'TPM2', 'Tpm2Tabl', Rev: 3, Len: 52
